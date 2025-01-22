@@ -61,7 +61,7 @@ function App() {
         return `'clamp-${beforeTw}-${afterTw}': 'clamp(${minValue.toFixed(3)}rem, ${offset.toFixed(3)}rem + ${vwSlope.toFixed(3)}vw, ${maxValue.toFixed(3)}rem)'`;
     }
 
-    const clamp = calculateClamp(before, after, minViewport, maxViewport)
+    const clamp = calculateClamp(beforeRem, afterRem, minViewport, maxViewport)
 
   return (
       <div>
