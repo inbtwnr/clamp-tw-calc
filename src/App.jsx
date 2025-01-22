@@ -88,8 +88,8 @@ function App() {
           </form>
           <p>before in rem {beforeRem}</p>
           <p>after in rem {afterRem}</p>
-          <p>{`'${beforeTw}': '${beforeRem}'`}</p>
-          <p>{`'${afterTw}': '${afterRem}'`}</p>
+          <p>{`${beforeTw}: '${beforeRem}rem'`}</p>
+          <p>{`${afterTw}: '${afterRem}rem'`}</p>
           <h2>Clamp calculator</h2>
           <form action="">
               <label>
